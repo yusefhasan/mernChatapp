@@ -1,11 +1,11 @@
 {
-  "name": "mern-back-end",
+  "name": "backend",
   "version": "1.0.0",
 
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon index"
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",

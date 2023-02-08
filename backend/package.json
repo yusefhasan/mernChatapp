@@ -1,9 +1,9 @@
 {
   "name": "mern-back-end",
   "version": "1.0.0",
-  
+
   "description": "",
-  "main": "index.js",
+  "main": "serverjs",
   "scripts": {
     "start": "nodemon index"
   },

@@ -1,6 +1,7 @@
 const express = require('express')
 // import { express } from "express";
 const app = express();
+const { socket } = require('../src/context/appContext');
 
 
 
@@ -19,7 +20,6 @@ const  cors = require("cors")
 const rooms= ["general" , "tech" , "finance" , "crypto"];
 const userRoutes= require("./routes/userroutes");
 const { join } = require('path');
-const { socket } = require('../src/context/appContext');
 const User = require('./models/User');
 const Message= require("./models/Message.js")
 
